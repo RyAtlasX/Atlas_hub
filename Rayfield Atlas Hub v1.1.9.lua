@@ -482,6 +482,13 @@ local Button = ScriptsTab:CreateButton({
  })
 
  local Button = HubsTab:CreateButton({
+	Name = "Ez Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Ez%20Hub.txt"))()
+    end,
+ })
+
+ local Button = HubsTab:CreateButton({
 	Name = "Penlulum Hub",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/RyAtlasX/Roblox_Scripts/main/Pendulum%20Hub.lua"))()
