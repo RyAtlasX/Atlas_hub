@@ -442,8 +442,3 @@ local T = ser:Channel("Rules")
 T:Label("Don't disturb anyone")
 T:Label("Don't grab ip or dox")
 T:Label("Be cool :thumbsup:")
-local textbox = ser:Channel("Textboxes")
-
-textbox:Textbox("Text", "Type here (if you are showcasing)", true, function(t)
-print(t)
-end)
