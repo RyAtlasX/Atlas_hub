@@ -230,8 +230,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/RyAtlasX/Script-Stora
 DiscordLib:Notification("Notification", "Script Successfully Executed!", "Okay!")
 end)
 
-btns:Button("Muscle-Legends.txt", function()
-loadstring(game:HttpGet("https://github.com/RyAtlasX/Atlas_hub/edit/main/Muscle-Legends.txt"))()
+btns:Button("Muscle Legends", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RyAtlasX/Atlas_hub/main/Muscle-Legends.txt"))()
 DiscordLib:Notification("Notification", "Script Successfully Executed!", "Okay!")
 end)
 
