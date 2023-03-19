@@ -69,6 +69,12 @@ Rayfield:Notify({
     end,
  })
  local Button = RandomTab:CreateButton({
+	Name = "Muscle Legends | V.G",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RyAtlasX/Atlas_hub/main/Muscle-Legends.txt"))()
+    end,
+ })
+ local Button = RandomTab:CreateButton({
 	Name = "VAPE v4 | Bedwars",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/RyAtlasX/Script-Storages/main/VAPE%20V4%20%5Bbedwar%5D"))()
@@ -529,5 +535,5 @@ local Paragraph = ChangeTab:CreateParagraph({Title = "Update 1.1.5", Content = "
 local Paragraph = ChangeTab:CreateParagraph({Title = "Update 1.1.6", Content = "Added Infamy script, Legend of speed back to the Atlas hub, moved Solar to Utilites selection."})
 local Paragraph = ChangeTab:CreateParagraph({Title = "Update 1.1.7", Content = "Added auto player piano."})
 local Paragraph = ChangeTab:CreateParagraph({Title = "Update 1.1.8", Content = "Added Energize Animation Gui."})
-local Paragraph = ChangeTab:CreateParagraph({Title = "Update 1.1.9", Content = "Added Owlhub, Ez hub."})
+local Paragraph = ChangeTab:CreateParagraph({Title = "Update 1.1.9", Content = "Added Owlhub, Ez hub, Muscle Legends script."})
 local Paragraph = HelpTab:CreateParagraph({Title = "What is netless?", Content = "When you use FE scripts, It relies on taking your limbs and rearranging them, Sometimes it will fail, and the script wont work, Netless prevents this."})
