@@ -230,6 +230,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/RyAtlasX/Script-Stora
 DiscordLib:Notification("Notification", "Script Successfully Executed!", "Okay!")
 end)
 
+btns:Button("Muscle-Legends.txt", function()
+loadstring(game:HttpGet("https://github.com/RyAtlasX/Atlas_hub/edit/main/Muscle-Legends.txt"))()
+DiscordLib:Notification("Notification", "Script Successfully Executed!", "Okay!")
+end)
+
 btns:Button("Piano Auto Player | richie0866", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RyAtlasX/Script-Storages/main/Auto_player.piano"))()
  DiscordLib:Notification("How to use: ", "Go to your executor's workspace > create folder name 'midi' > add a midi file or find it on the internet then put it in a folder.", "Okay!")
