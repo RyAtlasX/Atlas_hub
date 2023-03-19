@@ -529,5 +529,5 @@ local Paragraph = ChangeTab:CreateParagraph({Title = "Update 1.1.5", Content = "
 local Paragraph = ChangeTab:CreateParagraph({Title = "Update 1.1.6", Content = "Added Infamy script, Legend of speed back to the Atlas hub, moved Solar to Utilites selection."})
 local Paragraph = ChangeTab:CreateParagraph({Title = "Update 1.1.7", Content = "Added auto player piano."})
 local Paragraph = ChangeTab:CreateParagraph({Title = "Update 1.1.8", Content = "Added Energize Animation Gui."})
-local Paragraph = ChangeTab:CreateParagraph({Title = "Update 1.1.9", Content = "Added Owlhub."})
+local Paragraph = ChangeTab:CreateParagraph({Title = "Update 1.1.9", Content = "Added Owlhub, Ez hub."})
 local Paragraph = HelpTab:CreateParagraph({Title = "What is netless?", Content = "When you use FE scripts, It relies on taking your limbs and rearranging them, Sometimes it will fail, and the script wont work, Netless prevents this."})
