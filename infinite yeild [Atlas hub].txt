@@ -1,3 +1,6 @@
+error("This is NOT a official version of Infinite Yield!",0)
+warn("Script remade by Atlas Hub",0)
+
 if IY_LOADED and not _G.IY_DEBUG == true then
 	error("Infinite Yield is already running!",0)
 	return
