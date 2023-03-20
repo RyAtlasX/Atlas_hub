@@ -12,7 +12,7 @@ if not game:IsLoaded() then
 	notLoaded:Destroy()
 end
 
-ver = '5.2 [Atlas hub]'
+ver = '5.2 [AT hub]'
 
 Players = game:GetService("Players")
 
@@ -4389,6 +4389,7 @@ CMDs = {}
 CMDs[#CMDs + 1] = {NAME = 'console', DESC = 'Loads old Roblox console'}
 CMDs[#CMDs + 1] = {NAME = 'explorer / dex', DESC = 'Opens DEX explorer'}
 CMDs[#CMDs + 1] = {NAME = 'remotespy / rspy', DESC = 'Opens FrostHook Spy'}
+CMDs[#CMDs + 1] = {NAME = 'DomainX / DMX', DESC = 'Opens Domain X which is the best utility'}
 CMDs[#CMDs + 1] = {NAME = 'audiologger / alogger', DESC = 'Opens Edges audio logger'}
 CMDs[#CMDs + 1] = {NAME = 'serverinfo / info', DESC = 'Gives you info about the server'}
 CMDs[#CMDs + 1] = {NAME = 'jobid', DESC = 'Copies the games JobId to your clipboard'}
@@ -6806,6 +6807,10 @@ end)
 
 addcmd('exit',{},function(args, speaker)
 	game:shutdown() 
+end)
+
+addcmd('DomainX',{'DMX'},function(args, speaker)
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/fortnitemodder/DomainX/main/Source"))()
 end)
 
 addcmd('NamelessAnim',{'nma'},function(args, speaker)
