@@ -1,6 +1,8 @@
 error("This is not a official version of Infinite Yield!",0)
 warn("Script remade by Atlas Hub",0)
 warn("This versions of Infinite Yeild is outdated! Some commands may not be supported.",0)
+warn("Outdated version: v5.2",0)
+
 
 if IY_LOADED and not _G.IY_DEBUG == true then
 	error("Infinite Yield is already running!",0)
