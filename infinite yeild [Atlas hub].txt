@@ -11108,3 +11108,4 @@ addcmd('spin',{},function(args, speaker)
 	local spinSpeed = 20
 	if args[1] and isNumber(args[1]) then
 		
+print("You Stupid, also don't skid it")
