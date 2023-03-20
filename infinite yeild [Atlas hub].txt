@@ -12,7 +12,7 @@ if not game:IsLoaded() then
 	notLoaded:Destroy()
 end
 
-ver = '[AT hub]'
+ver = 'Atlas hub'
 
 Players = game:GetService("Players")
 
