@@ -7,4 +7,6 @@
 
 <p align="center">Join our server</p>
 
-<iframe src="https://discord.com/widget?id=1075367109070168094&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+<p align="center">
+<img src="https://discord.com/widget?id=1075367109070168094&theme=dark
+</p>
